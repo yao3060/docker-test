@@ -14,16 +14,18 @@ services:
     # defines the port mapping
     # corresponds to the "-p" flag
     ports:
-      - "8080:80"
+      - "80:80"
     tty: true
     volumes:
       - ./app:/var/www
       - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/log:/var/log/nginx
     links:
       - mysql
       - redis
     environment:
       DEBUG: 1
+      PRODUCTION: "false"
       DB_HOST: mysql
       DB_DATABASE: database
       DB_USERNAME: app
@@ -31,6 +33,9 @@ services:
       REDIS_HOST: redis
       SESSION_DRIVER: redis
       CACHE_DRIVER: redis
+      MYSQL_USER: app
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: database
     networks:
       - web-network
 
@@ -50,6 +55,8 @@ services:
     image: mysql:5.7
     ports:
       - 3306:3306
+    volumes:
+      - ./mysql:/var/lib/mysql
     environment:
       MYSQL_DATABASE: database
       MYSQL_USER: app
@@ -62,5 +69,19 @@ services:
     image: redis
     ports:
       - 6379:6379
+    networks:
+      - web-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - 8888:80
+    volumes:
+      - ./sessions:/sessions
+    links:
+      - mysql
+    environment:
+      PMA_HOST: mysql
+      PMA_PASSWORD: password
     networks:
       - web-network

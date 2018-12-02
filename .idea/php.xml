@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/app/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/app/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/app/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/app/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/app/vendor/zendframework/zend-feed" />
+      <path value="$PROJECT_DIR$/app/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/app/vendor/composer" />
+      <path value="$PROJECT_DIR$/app/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/app/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/app/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/app/vendor/easyrdf/easyrdf" />
+      <path value="$PROJECT_DIR$/app/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/app/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/app/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/app/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/app/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/app/vendor/stack/builder" />
+      <path value="$PROJECT_DIR$/app/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/app/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/app/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/app/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/class-loader" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony-cmf/routing" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/app/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/app/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/app/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/app/vendor/guzzlehttp/promises" />
+    </include_path>
+  </component>
+</project>

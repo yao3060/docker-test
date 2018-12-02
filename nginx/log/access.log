@@ -1,0 +1,4 @@
+192.168.48.1 - - [02/Dec/2018:22:31:55 +0000] "GET /phpinfo.php HTTP/1.1" 500 5 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36" "-"
+192.168.48.1 - - [02/Dec/2018:22:35:19 +0000] "GET /phpinfo.php HTTP/1.1" 502 559 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36" "-"
+192.168.48.1 - - [02/Dec/2018:22:35:44 +0000] "GET /phpinfo.php HTTP/1.1" 200 411 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36" "-"
+192.168.48.1 - - [02/Dec/2018:22:36:15 +0000] "POST /core/install.php?langcode=zh-hans&profile=minimal HTTP/1.1" 200 4413 "http://127.0.0.1/core/install.php?langcode=zh-hans&profile=minimal" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36" "-"
